@@ -2,16 +2,15 @@
 	"schemaVersion": 1,
 	"id": "optimizationx",
 	"version": "${version}",
-	"name": "optimizationx",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "OptimizationX",
+	"description": "Everything in one.",
 	"authors": [
-		"Me!"
+		"colinxu2020"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/emteebeegamer/OptimizationX"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/optimizationx/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -30,7 +29,7 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.19.5",
+		"fabricloader": ">=0.15.0",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
